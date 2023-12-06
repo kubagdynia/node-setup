@@ -89,15 +89,15 @@ apt-get install -y ca-certificates libgmp10 libsnappy1v5 libtbb2 libtbb12 zlib1g
 # --- NODE BINARY SETUP --- #
 
 if [[ $VER == "22.04" ]]; then
-  CHAINWEB_FILE="chainweb-2.21.ghc-9.6.2.ubuntu-22.04.667121e.tar.gz"
+  CHAINWEB_FILE="chainweb-2.22.ghc-9.6.3.ubuntu-22.04.b205880.tar.gz"
 elif [[ $VER == "20.04" ]]; then
-  CHAINWEB_FILE="chainweb-2.21.ghc-9.6.2.ubuntu-20.04.667121e.tar.gz"
+  CHAINWEB_FILE="chainweb-2.22.ghc-9.6.3.ubuntu-20.04.b205880.tar.gz"
 else
   decho "Are you using Ubuntu 20.04 or 22.04?"
   exit 1
 fi
 
-NODE=https://github.com/kadena-io/chainweb-node/releases/download/2.21/$CHAINWEB_FILE
+NODE=https://github.com/kadena-io/chainweb-node/releases/download/2.22/$CHAINWEB_FILE
 MINER=https://github.com/kadena-io/chainweb-miner/releases/download/v1.0.3/chainweb-miner-1.0.3-ubuntu-18.04.tar.gz
 
 decho 'Downloading Node...'

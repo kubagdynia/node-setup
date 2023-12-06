@@ -6,14 +6,15 @@ at the Public IP Address of your machine.
 
 ### Version
 
-2.21
+2.22
 
-### Installation 
+### Installation
 
 ```bash
 wget https://raw.githubusercontent.com/kubagdynia/node-setup/master/installnode.sh
 sudo bash installnode.sh
 ```
+
 ### Installation without proper Domain Name
 
 ```bash
@@ -31,7 +32,7 @@ A log of the install is stored in `/tmp/install.log` if there were any errors.
 cd /root/kda
 systemctl stop kadena-node
 rm chainweb-node
-wget https://github.com/kadena-io/chainweb-node/releases/download/2.21/chainweb-2.21.ghc-9.6.2.ubuntu-22.04.667121e.tar.gz
-tar -xvf chainweb-2.21.ghc-9.6.2.ubuntu-22.04.667121e.tar.gz
+wget https://github.com/kadena-io/chainweb-node/releases/download/2.22/chainweb-2.22.ghc-9.6.3.ubuntu-22.04.b205880.tar.gz
+tar -xvf chainweb-2.22.ghc-9.6.3.ubuntu-22.04.b205880.tar.gz
 systemctl start kadena-node
 ```
