@@ -6,7 +6,7 @@ at the Public IP Address of your machine.
 
 ### Version
 
-[2.23.2](https://github.com/kadena-io/chainweb-node/releases/tag/2.23.2)
+[2.24](https://github.com/kadena-io/chainweb-node/releases/tag/2.24)
 
 ### Installation
 
@@ -32,7 +32,7 @@ A log of the install is stored in `/tmp/install.log` if there were any errors.
 cd /root/kda
 systemctl stop kadena-node
 rm chainweb-node
-wget https://github.com/kadena-io/chainweb-node/releases/download/2.23.2/chainweb-2.23.2.ghc-9.6.3.ubuntu-22.04.5ca1ca1.tar.gz
-tar -xvf chainweb-2.23.2.ghc-9.6.3.ubuntu-22.04.5ca1ca1.tar.gz
+wget https://github.com/kadena-io/chainweb-node/releases/download/2.24/chainweb-2.24.ghc-9.6.4.ubuntu-22.04.e363858.tar.gz
+tar -xvf chainweb-2.24.ghc-9.6.4.ubuntu-22.04.e363858.tar.gz
 systemctl start kadena-node
 ```
